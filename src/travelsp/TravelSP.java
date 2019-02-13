@@ -41,7 +41,7 @@ public class TravelSP {
     }
 
     private static int trvel(int n, int[][] w, int[][] p) {
-        //the number of all subsets of vertic
+        //the number of all subsets of vertices
         int k = (int) Math.pow(2, (n - 1));
         
         int[][] D = new int[n][k];
